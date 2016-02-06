@@ -1,3 +1,8 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Verdana;
     background-color: #222;
@@ -5,81 +10,100 @@ body {
 }
 
 .container {
-  width: 100%;
-  height: 100%;
-  max-width: 440px;
-  max-height: 440px;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;  
+    display: flex;
+    
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.row {
+    height: auto;
+    max-width: 46em;
+}
+
+@media screen and (min-width: 768px) {
+    .row {    
+        flex: 1;
+        display: flex;
+    }
+}
+
+.col {
+    height: 20em;
+    width: 20em;
+    flex: 1;
+    margin: 2em; 
+}
+
+.row:nth-child(1) .col {
+    margin-bottom: 0;
+}
+
+.col:nth-child(1) {
+    margin-right: 0;
 }
 
 .tile {
-  margin-bottom: 1em;
-  margin-right: 1em;
-  height: 200px;
-  width: 200px;
-  position: relative;
-  perspective: 800px;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .tile > div {
-  text-align: center;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 20em;
 }
 
-.tile > div > div {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  margin-top: 36px;
-  margin-bottom: 36px;
-  transition: 0.5s;
-
-  -moz-backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;
+.tile > div {        
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
-.tile > div:hover .front {
-  -webkit-transform: rotateX(-180deg);
-  transform: rotateX(-180deg);
+.tile > div > img {
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+    vertical-align: middle;
 }
 
-.tile > div:hover .back  {
-  -webkit-transform: rotateX(0);
-  transform: rotateX(0);
-}
-
-.back {
+.tile > div.back {
   color: white;
-  font-size: 24px;
-  margin-top: 88px !important;
   -webkit-transform: rotatex(180deg);
   transform: rotatex(180deg);
 }
 
-.github {
+.tile.github {
     background-color: #5f00cb;
 }
 
-.twitter {
+.tile.twitter {
     background-color: #4099FF;
 }
 
-.linkedin {
+.tile.linkedin {
     background-color: #287bbc;
 }
 
-.email {
+.tile.email {
     background-color: #3D0066;
+}
+
+.tile:hover .front {
+  -webkit-transform: rotateX(-180deg);
+  transform: rotateX(-180deg);
+}
+
+.tile:hover .back  {
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
 }
