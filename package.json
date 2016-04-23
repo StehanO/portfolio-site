@@ -1,0 +1,32 @@
+{
+  "name": "francoislaubscher.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test"
+  },
+  "author": "Francois Laubscher",
+  "dependencies": {
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "express": "^4.13.3",
+    "history": "^1.17.0",
+    "json-loader": "^0.5.4",
+    "react": "^0.14.3",
+    "react-engine": "^3.0.0",
+    "react-router": "^1.0.3",
+    "serve-favicon": "^2.3.0",
+    "webpack": "^1.12.9"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-sass": "^1.1.0",
+    "grunt-webpack": "^1.0.11",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
