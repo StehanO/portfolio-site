@@ -1,4 +1,13 @@
 [{
+    "title": "Asimmetric Dashboard",
+    "date": "2016",
+    "employer": "Asimmetric",
+    "employerLink": "http://asim.io",
+    "description": "The Asimmetric Dashboard displays real-time data from the sensors which help IT managers and network operations professionals to detect issues instantly and troubleshoot from wherever they are in the world to improve WLAN quality of experience.",
+    "role": "Front-end development of the dashboard",
+    "tech": [ "ES6", "React", "Redux", "Firebase", "SCSS" ]
+},
+{
     "title": "Generic Itinerary Integration",
     "date": "2016",
     "employer": "wetu",
@@ -13,7 +22,7 @@
     "employerLink": "http://ikonconsulting.co.za",
     "description": "Web application which allows job candidates to create and view their CV (resume) on desktop, tablet or mobile.",
     "role": "Development of CV Generator application.",
-    "tech": [ "NodeJS", "MongoDB", "ReactJS", "SCSS", "ES6" ]
+    "tech": [ "NodeJS", "MongoDB", "React", "SCSS", "ES6" ]
 }, {
     "title": "wetu.com",
     "date": "2016",
@@ -48,7 +57,7 @@
     "tech": [ ".Net Framework 4.5.2", "MS SQL Server 2014", "RavenDB", "ASP.NET MVC 5", "SCSS" ]
 }, {
     "title": "Metrics dashboard",
-    "date": "August 2015",
+    "date": "2015",
     "employer": "wetu",
     "employerLink": "http://wetu.com",
     "description": "Internal metrics dashboard",
@@ -72,7 +81,7 @@
     "tech": [ ".Net Framework 4.5.2", "MS SQL Server 2014", "RavenDB", "ASP.NET MVC 5", "SCSS", "JavaScript" ]
 }, {
     "title": "Citizen Reporting (FixMyCity framework v2)",
-    "date": "March 2015",
+    "date": "2015",
     "employer": "Intervate",
     "employerLink": "http://intervate.com",
     "description": "The Fix-My-City Framework is a reusable app framework which utilises the common components of a smartphone. These components include the global positioning system (GPS), the 3G or Wi-Fi receiver, and the camera.",
@@ -80,7 +89,7 @@
     "tech": [ "Windows Azure", "WCF REST web services", ".Net Framework 4.5", "SQL Azure", "Windows Phone 8", "ASP.NET Web Forms" ]
 }, {
     "title": "JRA Find & Fix",
-    "date": "February 2014 to March 2015",
+    "date": "2014",
     "employer": "Intervate",
     "employerLink": "http://intervate.com",
     "description": "The purpose of the Fix & Find App is to simplify and enhance communication between Johannesburg Road Agency (JRA) and the road users, to enable the JRA to process the service requests of citizens, to resolve road issues and to enable road users to share road issues.",
@@ -88,7 +97,7 @@
     "tech": [ "Windows Azure", "WCF REST web services", ".Net Framework 4.5", "SQL Azure", "Windows Phone 8", "ASP.NET Web Forms", "d3.js" ]
 }, {
     "title": "SANParks App v2",
-    "date": "October 2013 to January 2014",
+    "date": "2013",
     "employer": "Intervate",
     "employerLink": "http://intervate.com",
     "description": "The SANParks app enables individuals to capture animal sightings during game drives. It provides the ability to capture details about sightings along with a snapshot to keep a visual history of your trip and to assist in tracking of endangered animals.",
@@ -96,7 +105,7 @@
     "tech": [ "Windows Azure", "Windows Azure Mobile Services", ".Net Framework 4.5", "SQL Azure", "Windows Phone 8", "ASP.NET Web Forms" ]
 }, {
     "title": "Telkom Knockout App",
-    "date": "October 2013",
+    "date": "2013",
     "employer": "Intervate",
     "employerLink": "http://intervate.com",
     "description": "Telkom Knockout Tournament app enables users to stay up to date with all the Telkom Knockout action and news. The tournament features the 16 PSL teams playing in straight knockout ties through a round of the last 16, quarterfinals and semi-finals, before the final is played at a neutral ground.",
@@ -104,7 +113,7 @@
     "tech": [ "HTML5, CSS3 and JavaScript", "Windows Phone 8" ]
 }, {
     "title": "Citizen Scientist",
-    "date": "June 2013",
+    "date": "2013",
     "employer": "Intervate",
     "employerLink": "http://intervate.com",
     "description": "The Citizen Scientist app enables individuals to capture animal sightings during game drives. It provides the ability to capture details about sightings along with a snapshot to keep a visual history of your trip and to assist in tracking of endangered animals.",
@@ -112,7 +121,7 @@
     "tech": [ "Windows Azure", "Windows Azure Mobile Services", ".Net Framework 4.5", "SQL Azure", "Windows Phone 8", "ASP.NET Web Forms" ]
 }, {
     "title": "Road Accident Fund - Accident Report",
-    "date": "May 2013",
+    "date": "2013",
     "employer": "Intervate",
     "employerLink": "http://intervate.com",
     "description": "The RAF application is designed to assist you in the event of an accident. It provides a quick-reference guide as to what to do in the event of an accident or emergency, access to emergency numbers and a convenient way to capture the key information required from the scene of an accident for reference or later reporting to the police, insurance or to the Road Accident Fund.",
@@ -120,7 +129,7 @@
     "tech": [ "Windows Azure", "Windows Azure Mobile Services", ".Net Framework 4.5", "SQL Azure", "Windows Phone 8", "ASP.NET Web Forms" ]
 }, {
     "title": "FixMyCity Framework",
-    "date": "March 2013",
+    "date": "2013",
     "employer": "Intervate",
     "employerlink": "http://intervate.com",
     "description": "The Fix-My-City Framework is a reusable app framework which utilises the common components of a smartphone. These components include the global positioning system (GPS), the 3G or Wi-Fi receiver, and the camera.",
