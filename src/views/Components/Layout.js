@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { Component, PropTypes as pt } from 'react'
 
-export const Home = () =>
-    <html>
+class Layout extends Component {
+  render () {
+    return (
+      <html>
         <head>
             <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
             <meta name="author" content="Francois Laubscher"/>
@@ -12,13 +14,16 @@ export const Home = () =>
             <link href="/css/site.min.css" rel="stylesheet"></link>
         </head>
         <body>
-            <div className="home-content">
-                <div className="info">
-                    <h1>francois laubscher</h1>
-                    <h2>full stack developer</h2>
-                    <a href="/resume">view my resume</a>
-                </div>
-            </div>
+            {this.props.children}
             <script src='/js/bundle.js'></script>
         </body>
-    </html>;
+      </html>
+    )
+  }
+}
+
+Layout.propTypes = {
+  title: pt.string.isRequired
+}
+
+export default Layout

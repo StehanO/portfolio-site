@@ -1,25 +1,25 @@
-var webpack = require("webpack");
+var webpack = require('webpack')
 
 module.exports = {
   plugins: [
-      new webpack.optimize.UglifyJsPlugin(),
-      new webpack.optimize.DedupePlugin(),
-      new webpack.DefinePlugin({
-          "process.env": {
-              // This has effect on the react lib size
-              "NODE_ENV": '"production"'
-          }
-      })
+    new webpack.optimize.UglifyJsPlugin(),
+    new webpack.optimize.DedupePlugin(),
+    new webpack.DefinePlugin({
+      'process.env': {
+        // This has effect on the react lib size
+        'NODE_ENV': '"production"'
+      }
+    })
   ],
-  entry: __dirname + '/public/js/react-client.js',
+  entry: __dirname + '/src/public/js/react-client.js',
   output: {
-    path: __dirname + '/public/js',
+    path: __dirname + '/src/public/js',
     filename: 'bundle.js'
   },
   module: {
     loaders: [
       {
-        test: /\.jsx?$/,
+        test: /\.js?$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
@@ -35,4 +35,4 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.jsx', '.json']
   }
-};
+}
