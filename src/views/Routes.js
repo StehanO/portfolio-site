@@ -4,7 +4,7 @@ import Layout from './Components/Layout'
 import HomeView from './HomeView'
 import ResumeView from './ResumeView'
 
-const Home = () => <Layout title='full stack developer'><HomeView /></Layout>
+const Home = () => <Layout title='javascript developer'><HomeView /></Layout>
 const Resume = () => <Layout title='resume'><ResumeView /></Layout>
 
 const Routes = (

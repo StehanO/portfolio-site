@@ -6,16 +6,16 @@ module.exports = function(grunt) {
         sourceMap: false,
         sourceComments: false
       },
-      dist: {
+      build: {
         files: {
-          'lib/public/css/site.css': 'src/public/css/site.scss'
+          'src/public/css/site.css': 'src/public/css/site.scss'
         }
       }
     },
     cssmin: {
-      target: {
+      build: {
         files: {
-          'lib/public/css/site.min.css': 'src/public/css/site.css'
+          'src/public/css/site.min.css': 'src/public/css/site.css'
         }
       }
     },

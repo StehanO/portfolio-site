@@ -63,18 +63,22 @@ p {
     max-width: 300px;
     padding: 1em;
     height: 100%;
-    background: #004D40; }
+    background: #455A64; }
   .content .contact-footer a {
     display: block;
     margin-bottom: 5px; }
   .content .history {
-    padding: 1em;
+    padding: 1em 0;
     overflow-y: scroll;
-    background: #00796B; }
+    background: #607D8B; }
+    .content .history h1 {
+      text-align: center;
+      padding: 0 1em; }
 
 .project {
-  border-bottom: 1px solid #EFEFEF;
-  margin-bottom: 1em; }
+  margin-bottom: 2px;
+  padding: 1em;
+  background-color: #90A4AE; }
   .project:last-of-type {
     border-bottom: 0; }
   .project .title {
@@ -108,7 +112,9 @@ p {
       max-width: none;
       height: auto; }
     .content .history {
-      overflow: hidden; } }
+      overflow: hidden; }
+      .content .history h1 {
+        padding: 0; } }
 
 @media screen and (max-width: 2560px) {
   .home-content h1 {

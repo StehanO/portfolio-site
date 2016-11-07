@@ -1,10 +1,10 @@
 [{
-    "title": "Asimmetric Dashboard",
+    "title": "Cape Dashboard",
     "date": "2016",
-    "employer": "Asimmetric",
-    "employerLink": "http://asim.io",
-    "description": "The Asimmetric Dashboard displays real-time data from the sensors which help IT managers and network operations professionals to detect issues instantly and troubleshoot from wherever they are in the world to improve WLAN quality of experience.",
-    "role": "Front-end development of the dashboard",
+    "employer": "Cape Networks",
+    "employerLink": "https://capenetworks.io",
+    "description": "The Cape Dashboard displays real-time data from the sensors which help IT managers and network operations professionals to detect issues instantly and troubleshoot from wherever they are in the world to improve WLAN quality of experience.",
+    "role": "Front-end development of the Cape Dashboard",
     "tech": [ "ES6", "React", "Redux", "Firebase", "SCSS" ]
 },
 {
