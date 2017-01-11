@@ -12,8 +12,8 @@ const ResumeView = () => {
           <img src="img/me-square_250.png" />
         </div>
         <h1>Hi! I'm Francois.</h1>
-        <p>I'm currently working at <a target="_blank" href="https://capenetworks.io">Cape Networks</a> as a front-end developer within the JavaScript stack using React, Redux and Firebase.</p>
-        <p>For the past few years I've worked as a full stack developer, primarily developing web apps using ASP.NET.</p>
+        <p>I'm currently working at <a target="_blank" href="http://made.agency">MADE</a> as a front end developer building front ends using React.</p>
+        <p>Recently I've started working within the JavaScript stack using NodeJS, React and Redux after moving away from the .NET stack where I primarily worked as a full stack developer.</p>
         <p>Check out some of my open source projects on <a target="_blank" href="https://github.com/fjlaubscher">GitHub</a>.</p>
         <div className="contact-footer">
           <a target="_blank" href="https://medium.com/@fjlaubscher">medium</a>
