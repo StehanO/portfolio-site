@@ -4,9 +4,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "grunt build && webpack",
-    "dev": "grunt build && webpack && node lib/index.js",
-    "deploy": "grunt build && webpack && grunt deploy",
+    "build": "grunt && webpack",
+    "dev": "grunt && webpack && node lib/index.js",
+    "deploy": "grunt && webpack && grunt deploy",
     "clean": "rm -rf lib/ && rm deploy.tar.gz"
   },
   "author": "Francois Laubscher",

@@ -1,15 +1,15 @@
-import React from 'react'
-import projects from '../projects.json'
+import React from 'react';
+import projects from '../projects.json';
 
 // components
-import Project from './Components/Project'
+import Project from './Components/Project';
 
 const ResumeView = () => {
   return (
     <div className="content">
       <div className="info">
         <div className="image">
-          <img src="img/me-square_250.png" />
+          <img src="img/me-square_250.jpg" />
         </div>
         <h1>Hi! I'm Francois.</h1>
         <p>I'm currently working at <a target="_blank" href="http://made.agency">MADE</a> as a front end developer building front ends using React.</p>
@@ -26,7 +26,7 @@ const ResumeView = () => {
         <div>{projects && projects.map((x) => <Project key={x.title} data={x} />)}</div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ResumeView
+export default ResumeView;

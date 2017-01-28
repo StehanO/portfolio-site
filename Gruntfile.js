@@ -51,7 +51,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-sass')
   grunt.loadNpmTasks('grunt-babel')
 
-  grunt.registerTask('default', ['sass', 'cssmin'])
-  grunt.registerTask('build', ['babel', 'copy', 'mkdir'])
+  grunt.registerTask('default', ['sass', 'cssmin', 'babel', 'copy', 'mkdir'])
   grunt.registerTask('deploy', ['compress'])
 }

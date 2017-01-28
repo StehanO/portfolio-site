@@ -1,8 +1,8 @@
-import React, { Component, PropTypes as pt } from 'react'
+import React, { Component, PropTypes as pt } from 'react';
 
 class Project extends Component {
   render () {
-    const { title, description, employer, employerLink, tech, date, role } = this.props.data
+    const { title, description, employer, employerLink, tech, date, role } = this.props.data;
     return (
       <div className="project">
         <div className="title">{title}</div>
@@ -21,13 +21,13 @@ class Project extends Component {
             </ul>
         </div>
       </div>
-    )
+    );
   }
 }
 
 Project.propTypes = {
   data: pt.object.isRequired
-}
+};
 
-export default Project
+export default Project;
 
