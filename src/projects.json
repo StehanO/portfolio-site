@@ -1,7 +1,16 @@
 [{
+    "title": "Ribyt Event Management App",
+    "date": "2017",
+    "employer": "MADE Code",
+    "employerLink": "https://www.madecode.co.za/",
+    "description": "Ribyt is the first cloud-based event guest management software designed for Destination Management, Incentive Travel, VIP/Corporate Hospitality and Special Events. The Ribyt app works in conjunction with its software platform to allow for easy, on-the-go management of its events and guests.",
+    "role": "Development of the Ribyt Platform",
+    "tech": [ "NodeJS", "Angular", "MongoDB", "LESS" ]
+},
+{
     "title": "Cape Dashboard",
     "date": "2016",
-    "employer": "Cape Networks",
+    "employer": "Cape Networks (freelance)",
     "employerLink": "https://capenetworks.io",
     "description": "The Cape Dashboard displays real-time data from the sensors which help IT managers and network operations professionals to detect issues instantly and troubleshoot from wherever they are in the world to improve WLAN quality of experience.",
     "role": "Front-end development of the Cape Dashboard",

@@ -42,15 +42,15 @@ module.exports = function(grunt) {
         files: [{ expand: true, cwd: 'lib/', src: ['**/*'], dest: '/' }]
       }
     }
-  })
+  });
 
-  grunt.loadNpmTasks('grunt-contrib-cssmin')
-  grunt.loadNpmTasks('grunt-contrib-compress')
-  grunt.loadNpmTasks('grunt-contrib-copy')
-  grunt.loadNpmTasks('grunt-mkdir')
-  grunt.loadNpmTasks('grunt-sass')
-  grunt.loadNpmTasks('grunt-babel')
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-compress');
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-mkdir');
+  grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-babel');
 
-  grunt.registerTask('default', ['sass', 'cssmin', 'babel', 'copy', 'mkdir'])
-  grunt.registerTask('deploy', ['compress'])
-}
+  grunt.registerTask('default', ['sass', 'cssmin', 'babel', 'copy', 'mkdir']);
+  grunt.registerTask('deploy', ['compress']);
+};

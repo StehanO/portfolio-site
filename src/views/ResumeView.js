@@ -9,10 +9,10 @@ const ResumeView = () => {
     <div className="content">
       <div className="info">
         <div className="image">
-          <img src="img/me-square_250.jpg" />
+          <img src="https://avatars0.githubusercontent.com/u/5119031" />
         </div>
         <h1>Hi! I'm Francois.</h1>
-        <p>I'm currently working at <a target="_blank" href="http://made.agency">MADE</a> as a front end developer building front ends using React.</p>
+        <p>I'm currently working at <a target="_blank" href="http://madecode.co.za">MADE Code</a> as a front end developer building anything with JavaScript and Node.</p>
         <p>Recently I've started working within the JavaScript stack using NodeJS, React and Redux after moving away from the .NET stack where I primarily worked as a full stack developer.</p>
         <p>Check out some of my open source projects on <a target="_blank" href="https://github.com/fjlaubscher">GitHub</a>.</p>
         <div className="contact-footer">

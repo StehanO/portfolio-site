@@ -1,4 +1,4 @@
-var webpack = require('webpack')
+var webpack = require('webpack');
 
 module.exports = {
   plugins: [
@@ -35,4 +35,4 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.jsx', '.json']
   }
-}
+};
