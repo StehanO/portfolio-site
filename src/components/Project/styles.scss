@@ -1,0 +1,45 @@
+@import "~styles/colors";
+
+.project {
+  padding: 2em;
+  background-color: $primary-color-text;
+  margin: 1em;
+  margin-bottom: 2em;
+  color: $secondary-text-color;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+
+  .employerLink, .employerLink:visited {
+    color: #88C0D0;
+    text-decoration: none;
+  }
+
+  .title {
+    font-weight: normal;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    .date {
+      font-weight: 400;
+    }
+  }
+  .employer {
+    margin-bottom: 1em;
+  }
+  .description:before {
+    content: "Description ";
+    font-weight: bold;
+  }
+  .role:before {
+    content: "Role ";
+    font-weight: bold;
+  }
+  .tech:before {
+    content: "Tech ";
+    font-weight: bold;
+  }
+
+  .tech {
+    ul {
+      margin-top: 0;
+    }
+  }
+}
